@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html,
+body {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #eee; }
+  .wrap .header {
+    width: 100%;
+    height: auto; }
+    .wrap .header img {
+      width: 100%;
+      height: 100%;
+      display: block; }
+  .wrap .section {
+    flex: 1;
+    width: 100%;
+    overflow-y: auto; }
+    .wrap .section .banner {
+      width: 100%;
+      height: 150px;
+      padding: 10px 0;
+      position: relative;
+      background: #fff; }
+      .wrap .section .banner .page {
+        position: absolute;
+        bottom: 0; }
+      .wrap .section .banner .box1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; }
+        .wrap .section .banner .box1 dl {
+          width: 20%; }
+          .wrap .section .banner .box1 dl dt {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto; }
+            .wrap .section .banner .box1 dl dt img {
+              width: 100%;
+              height: 100%;
+              display: block; }
+          .wrap .section .banner .box1 dl dd {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px; }
+      .wrap .section .banner .box2 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center; }
+        .wrap .section .banner .box2 dl {
+          width: 20%; }
+          .wrap .section .banner .box2 dl dt {
+            width: 40px;
+            height: 40px;
+            margin: 0 auto; }
+            .wrap .section .banner .box2 dl dt img {
+              width: 100%;
+              height: 100%;
+              display: block; }
+          .wrap .section .banner .box2 dl dd {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px; }
+    .wrap .section .list {
+      width: 100%;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      background: #fff;
+      padding: 10px 0; }
+      .wrap .section .list dl {
+        width: 100%;
+        display: flex;
+        padding: 10px 10px; }
+        .wrap .section .list dl dt {
+          width: 45px;
+          height: 45px;
+          line-height: 50px; }
+          .wrap .section .list dl dt img {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        .wrap .section .list dl dd {
+          flex: 1;
+          width: 100%;
+          margin-left: 10px;
+          font-size: 12px; }
+          .wrap .section .list dl dd p {
+            margin-top: 2%; }
+    .wrap .section .tpl {
+      width: 100%;
+      height: auto;
+      margin-top: 5px;
+      background: #fff;
+      padding: 10px 0; }
+      .wrap .section .tpl .kuai {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap; }
+        .wrap .section .tpl .kuai .tu {
+          width: 48%;
+          height: auto; }
+          .wrap .section .tpl .kuai .tu img {
+            width: 100%;
+            height: 100%;
+            display: block; }
+        .wrap .section .tpl .kuai .tu3 {
+          margin-top: 6px; }
+        .wrap .section .tpl .kuai .tu4 {
+          margin-top: 6px; }
+        .wrap .section .tpl .kuai .tu5 {
+          margin-top: 6px; }
+        .wrap .section .tpl .kuai .tu6 {
+          margin-top: 6px; }
+        .wrap .section .tpl .kuai .tu7 {
+          margin-top: 6px; }
+        .wrap .section .tpl .kuai .tu8 {
+          margin-top: 6px; }
+  .wrap .footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    background: #fff;
+    padding: 5px 0; }
+    .wrap .footer dl {
+      width: 20%;
+      text-align: center; }
+      .wrap .footer dl dt {
+        width: 30px;
+        height: 30px;
+        margin: 0 auto;
+        line-height: 30px; }
+        .wrap .footer dl dt i {
+          font-size: 20px;
+          color: #666; }
+      .wrap .footer dl dd {
+        font-size: 10px;
+        text-align: center;
+        color: #666; }
